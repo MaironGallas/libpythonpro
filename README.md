@@ -7,6 +7,11 @@ Link para o curso [Python Pro](https://www.python.pro.br)
 
 Suportada versão 3 de Python
 
+Para conferir qualidade do software rodar:
+```console
+pipenv run flake8
+```
+
 Tópicos Abordados:
 1. Git
 2. Virtualenv
