@@ -7,3 +7,5 @@ install:
 script:
   - pipenv run flake8
   - pipenv run pytest libpythonpro
+after_success:
+  - pipenv run codecov
